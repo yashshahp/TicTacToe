@@ -1,0 +1,24 @@
+.bg{
+    background-color: yellowgreen;
+    margin: auto;
+    height: 320px;
+    width: 320px;
+    vertical-align: middle;
+}    
+.tile{
+  border-color: rgb(220, 188, 250);
+  
+  border-style: solid;
+  border-width: thin; 
+  align-items: center;
+  justify-content: center;
+}
+
+
+  .board{
+
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    
+  }

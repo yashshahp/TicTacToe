@@ -1,0 +1,16 @@
+<div fxLayout="column" style="justify-content: center; align-content: center;">
+    <div fxLayout="column" class="bg" fxFlex>
+        <div fxFlex="20%" class="column"></div>
+        <div fxFlex="30%" class="column">
+            <p class="text">
+                Player 1 : Would you like X or O?
+            </p>
+        </div>
+        <div fxFlex="30%" class="column" fxLayout="row" fxAlignment="space-around">
+            <button class="bt" (click)="player1selection('X')">
+                <img src="https://image.flaticon.com/icons/png/512/75/75519.png" width="48" height="48"></button>
+            <button class="bt" (click)="player1selection('O')">
+                <img src="http://pngimg.com/uploads/letter_o/letter_o_PNG56.png" width="48" height="48"></button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<button mat-raised-button color="primary" (click)="reset()">Reset</button>
+<button mat-raised-button color="primary" (click)="back()">Back</button>
+
+<div class="bg">
+    <div fxLayout="row" class="board">
+        <div fxFlex="33%" fxLayout="col" *ngFor="let x of [].constructor(9);let i = index" class="tile" (click)="check(i)">
+           <img src="http://pngimg.com/uploads/letter_o/letter_o_PNG56.png" height="32px" width="32px" *ngIf="board[i]=='O'">
+           <img src="https://image.flaticon.com/icons/png/512/75/75519.png" height="32px" width="32px" *ngIf="board[i]=='X'">
+        </div>
+    </div>
+</div>
